@@ -1,0 +1,55 @@
+.cartContainer {
+    padding: 2rem;
+
+    h2 {
+        letter-spacing: 3px;
+        color: rgb(59, 105, 169);
+        font-weight: bolder;
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 0;
+        padding-bottom: 3rem;
+
+        max-width: 950px;
+
+        li {
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+
+            justify-content: center;
+            align-items: center;
+
+            .imgItem {
+                padding-bottom: 1rem;
+            }
+
+            .itemName {
+                font-weight: bold;
+            }
+
+            button {
+                border: none;
+                background-color: rgb(255, 113, 113);
+                padding: 7px;
+                font-weight: bold;
+                color: white;
+                border-radius: 5px;
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+
+.cartEmpty {
+    padding: 2rem;
+}
